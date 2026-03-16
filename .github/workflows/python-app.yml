@@ -42,6 +42,10 @@ jobs:
     - name: Test with pytest
       run: |
         pytest --alluredir=allure-results
+
+    - name: Fun with Linux
+      run: |
+        ls -lah
         
 
     - name: Allure Report action from marketplace
